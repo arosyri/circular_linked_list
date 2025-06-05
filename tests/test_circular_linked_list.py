@@ -53,7 +53,7 @@ class TestCircularLinkedList(unittest.TestCase):
         clist.append('b')
         clist.append('c')
         clist.reverse()
-        self.assertEqual(clist.get(0), 'X')
+        self.assertEqual(clist.get(0), 'c')
         self.assertEqual(clist.get(2), 'a')
 
     def test_findFirst_and_findLast(self):
